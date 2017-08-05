@@ -1,0 +1,185 @@
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+body {
+  position: relative;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+
+/* Mainsection*/
+
+section.flagSection img {
+    height: 32px;
+    width: 32px;
+    margin: 50px 0 10px 10px;
+}
+
+section.mainSection {
+    width: 100%;
+    height: 700px;
+    background-image: url('/vendor files/images/college essay writer.jpg');
+    background-size: 100% 100%;
+}
+
+/* Welcome section  */
+
+section.welcome {
+    padding: 50px 0 50px;
+	width: 100%;
+    height: auto;
+}
+
+/* AboutUS Section*/
+
+section.aboutus {
+    padding: 80px 0 80px;
+	width: 100%;
+    height: auto;
+}
+
+div.collapsed {
+  cursor: pointer;
+}
+
+.collapsed {
+  white-space: nowrap;
+  overflow: hidden;
+  height: 5em;
+  text-overflow: ellipsis;
+}
+
+/* Services Section*/
+
+section.services {
+    padding: 80px 0 80px;
+    text-align: center;
+	width: 100%;
+	height: 60%;
+    background-color: #e3d3af;
+}
+
+@media only screen and (max-width: 768px){
+    section.services {
+        padding: 20px;
+        height: 80%;
+    }
+}
+
+section.services i {
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: #6699cc;
+    color: #fff;
+}
+
+div.Flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    line-height: 150px;
+}
+
+div.Web {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    flex-grow: 1;
+    font-family: 'opensans';
+    font-weight: bold;
+    margin: 10px !important;
+}
+
+/* Portfolio Section*/
+
+section.portfolio {
+    padding: 80px 0 80px;
+    text-align: center;
+	width: 100%;
+	height: 400px;
+}
+
+/* Clients Section*/
+
+section.clients {
+    padding: 80px 0 80px;
+    text-align: center;
+	width: 100%;
+	height: 400px;
+}
+
+/* Socialresponsibilities Section*/
+
+section.socialResponsibilities {
+    padding: 80px 0 80px;
+    text-align: center;
+	width: 100%;
+	height: 400px;
+}
+
+/* Contact Section*/
+
+section.contact {
+	width: 100%;
+	height: 100%;
+    background-color: #f26f70;
+}
+
+section.contact> div.container {
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    color: #081a38;
+}
+
+section.contact> div.container h2,h3.c_container {
+    padding: 10px;
+}
+
+section.contact> div.container h5.c_copy {
+    margin-top: 30px; 
+}
+
+@media only screen and (max-width: 768px){
+    section.contact {
+	width: 100%;
+	height: 60%;
+    background-color: #f26f70;
+    font-size: 60px;
+    }
+
+     section.contact>h1,h2,h3,h4,h5 {
+        font-size: 15px;
+    } 
+
+    section.contact> div.container {
+        padding: 50px;
+        margin-top: 25px;
+        text-align: center;
+        font-family: 'Ubuntu';
+        font-weight: bold;
+        color: #081a38;
+    }
+
+section.contact> div.container h2,h3.c_container {
+    padding: 10px;
+}
+
+section.contact> div.container h5.c_copy {
+    margin-top: 30px; 
+}
+}
